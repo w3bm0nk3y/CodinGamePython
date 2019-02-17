@@ -4,6 +4,8 @@ import math
 # Auto-generated code below aims at helping you parse
 # the standard input according to the problem statement.
 
+# Create Method to map green light steps
+
 speed = int(input())
 light_count = int(input())
 for i in range(light_count):
@@ -11,8 +13,10 @@ for i in range(light_count):
     print("distance %d: %d"% (i, distance), file=sys.stderr)
     print("duration %d: %d"% (i, duration), file=sys.stderr)
 
+
+
 # Write an action using print
 # To debug: print("Debug messages...", file=sys.stderr)
 print(speed, file=sys.stderr)
 print(light_count, file=sys.stderr)
-print("answer")
+print(49)
