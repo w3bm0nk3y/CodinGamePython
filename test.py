@@ -1,6 +1,7 @@
 import math
 import numpy as np
 
+speed = 20
 duration = 10
 time = 4
 if (time//duration) % 2 == 0:
@@ -42,4 +43,5 @@ print(distance1_filter)
 print(distance4_filter)
 print(distance5_filter)
 
+print((distance5 / (distance5_filter + 1) <= speed))
 # print(possible_time_array // duration0 % 2 == 0)
